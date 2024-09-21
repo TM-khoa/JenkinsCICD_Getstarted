@@ -1,5 +1,6 @@
 #! /bin/bash
-echo "Start to build CMake"
-cmake -S . -B ./out/build/
+echo "Starting to build CMake"
+sudo cmake -S . -B ./out/build/
 cd out/build
-make
+sudo make
+./HelloWorldCMake
